@@ -1,0 +1,121 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/container.css" />
+    <link rel="stylesheet" href="css/color.css" />
+    <link rel="stylesheet" href="css/size.css" />
+    <link rel="stylesheet" href="css/desktop.css" />
+    <link rel="stylesheet" href="css/ipad.css" />
+    <link rel="stylesheet" href="css/iphone.css" />
+
+    <title>Workshop - pure CSS</title>
+
+    <style>
+        #desktop {
+            display: block;
+        }
+
+        #ipad {
+            display: none;
+        }
+
+        #iphone {
+            display: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            #desktop {
+                display: none;
+            }
+            #ipad {
+                display: block;
+            }
+            #iphone {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 375px) {
+            #desktop {
+                display: none;
+            }
+            #ipad {
+                display: none;
+            }
+            #iphone {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Desktop -->
+    <div class="container" id="desktop">
+
+        <div class="col-5 blue" id="firstDivDesktop" style="margin-right: 5%;">&nbsp;</div>
+        <div class="col-5 blue" id="firstDivDesktop" style="margin-bottom: 1.75%;">&nbsp;</div>
+
+        <div class="col-12 orange" id="secondDivDesktop" style="margin-bottom:1.75%;">&nbsp;</div>
+
+        <div class="col-3 green" id="thirdDivDesktop" style="margin-right: 5%;">&nbsp;</div>
+        <div class="col-3 green" id="thirdDivDesktop" style="margin-right: 5%;">&nbsp;</div>
+        <div class="col-3 green" id="thirdDivDesktop" style="margin-bottom: 1.75%;">&nbsp;</div>
+
+        <div class="col-2 red" id="fourthDivDesktop" style="margin-right: 5%;">&nbsp;</div>
+        <div class="col-2 red" id="fourthDivDesktop" style="margin-right: 5%;">&nbsp;</div>
+        <div class="col-2 red" id="fourthDivDesktop" style="margin-right: 5%;">&nbsp;</div>
+        <div class="col-2 red" id="fourthDivDesktop">&nbsp;</div>
+
+    </div>
+
+    <!-- iPad -->
+    <div class="container" id="ipad">
+        <div class="row">
+            <div class="col-12 blue" id="firstDivIpad" style="margin-bottom: 1%;">&nbsp;</div>
+            <div class="col-12 blue" id="firstDivIpad" style="margin-bottom: 1%;">&nbsp;</div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 orange" id="secondDivIpad" style="margin-bottom:1%;">&nbsp;</div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 green" id="thirdDivIpad" style="margin-bottom: 1%;">&nbsp;</div>
+            <div class="col-12 green" id="thirdDivIpad" style="margin-bottom: 1%;">&nbsp;</div>
+            <div class="col-12 green" id="thirdDivIpad" style="margin-bottom: 1%;">&nbsp;</div>
+        </div>
+
+        <div class="row">
+            <div class="col-5 red" id="fourthDivIpad" style="margin-right: 5%;">&nbsp;</div>
+            <div class="col-5 red" id="fourthDivIpad" style="margin-bottom: 1%;">&nbsp;</div>
+        </div>
+        <div class="row">
+            <div class="col-5 red" id="fourthDivIpad" style="margin-right: 5%;">&nbsp;</div>
+            <div class="col-5 red" id="fourthDivIpad">&nbsp;</div>
+        </div>
+    </div>
+
+    <!-- iPhone -->
+    <div class="container" id="iphone">
+
+        <div class="col-12 blue" id="firstDivIphone" style="margin-bottom: 1.75%;">&nbsp;</div>
+        <div class="col-12 blue" id="firstDivIphone" style="margin-bottom: 1.75%;">&nbsp;</div>
+
+        <div class="col-12 orange" id="secondDivIphone" style="margin-bottom:1.75%;">&nbsp;</div>
+
+        <div class="col-12 green" id="thirdDivIphone" style="margin-bottom: 1.75%;">&nbsp;</div>
+        <div class="col-12 green" id="thirdDivIphone" style="margin-bottom: 1.75%;">&nbsp;</div>
+        <div class="col-12 green" id="thirdDivIphone" style="margin-bottom: 1.75%;">&nbsp;</div>
+
+        <div class="col-12 red" id="fourthDivIphone" style="margin-bottom: 1.75%;">&nbsp;</div>
+        <div class="col-12 red" id="fourthDivIphone" style="margin-bottom: 1.75%;">&nbsp;</div>
+        <div class="col-12 red" id="fourthDivIphone" style="margin-bottom: 1.75%;">&nbsp;</div>
+        <div class="col-12 red" id="fourthDivIphone">&nbsp;</div>
+
+    </div>
+
+</body>
+
+</html>
