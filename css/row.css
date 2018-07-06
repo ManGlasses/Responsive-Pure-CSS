@@ -1,0 +1,21 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    margin-bottom: 2vh;
+}
+
+#desktop .row:last-child {
+    margin-bottom: 0px;
+}
+
+#tablet .row, #mobile .row {
+    clear: both;
+}
+
+#tablet .row:last-child {
+    margin-bottom: 0px;
+}

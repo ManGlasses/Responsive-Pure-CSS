@@ -1,0 +1,44 @@
+@media screen and (min-width: 768px) {
+    .hei-1 {
+        height: 15vh;
+    }
+    .hei-2 {
+        height: 20vh;
+    }
+    .hei-3 {
+        height: 25vh;
+    }
+    .hei-4 {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hei-1 {
+        height: 4vh;
+    }
+    .hei-2 {
+        height: 9vh;
+    }
+    .hei-3 {
+        height: 14vh;
+    }
+    .hei-4 {
+        height: 19vh;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hei-1 {
+        height: 4vh;
+    }
+    .hei-2 {
+        height: 8vh;
+    }
+    .hei-3 {
+        height: 12vh;
+    }
+    .hei-4 {
+        height: 14vh;
+    }
+}
