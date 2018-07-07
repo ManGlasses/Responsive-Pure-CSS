@@ -1,21 +1,13 @@
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .row {
     margin-bottom: 2vh;
 }
 
-#desktop .row:last-child {
-    margin-bottom: 0px;
-}
-
-#tablet .row, #mobile .row {
+.row::after {
+    content: " ";
     clear: both;
+    display: block;
 }
 
-#tablet .row:last-child {
+#desktop .row:last-child, #tablet .row:last-child, #mobile .row:last-child {
     margin-bottom: 0px;
 }
