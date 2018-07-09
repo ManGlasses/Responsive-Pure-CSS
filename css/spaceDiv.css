@@ -1,12 +1,12 @@
 div[class^="col-"] {
-    padding: 0vw 0.5vw 0vw 0.5vw;
+    padding: 0vw 0.5vw;
     box-sizing: border-box;
 }
 
-div[class^="col-"]:first-child {
-    padding-left: 0vw; 
+.row div[class^="col-"]:first-child {
+    padding-left: 0vw;
 }
 
-div[class^="col-"]:last-child {
+.row div[class^="col-"]:last-child {
     padding-right: 0vw; 
 }
